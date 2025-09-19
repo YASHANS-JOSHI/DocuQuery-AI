@@ -10,6 +10,10 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 
+
+api_key = st.secrets["GOOGLE_API_KEY"]
+
+
 # =======================
 # Streamlit page config (must be first)
 # =======================
@@ -132,3 +136,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
